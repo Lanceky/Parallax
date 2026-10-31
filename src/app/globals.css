@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --ink: #0a0c12;
+  --canvas: #10131c;
+  --panel: #171b27;
+  --cloud: #eef2ff;
+  --mist: #9da8bd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--ink);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--ink);
+  color: var(--cloud);
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(98, 217, 212, 0.28);
+  color: var(--cloud);
+}
+
+@layer components {
+  .surface {
+    @apply rounded-[28px] border border-white/[0.09] bg-panel/80 shadow-glow backdrop-blur-xl;
+  }
+
+  .eyebrow {
+    @apply text-[10px] font-semibold uppercase tracking-[0.22em];
+  }
+
+  .status-dot {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-2.5 py-1 text-[10px] uppercase tracking-[0.16em] text-mist;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-2.5 py-1.5 text-xs text-cloud;
+  }
+}
+
+.timeline-grid {
+  background-color: rgba(255, 255, 255, 0.015);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
