@@ -55,7 +55,7 @@ export const demoSelves: DemoSelf[] = [
   {
     id: "new-city",
     label: "New-city-me",
-    years: "2020 - 2022",
+    years: "2020 - 2026",
     kind: "then",
     description: "A smaller circle, deeper rituals, and a taste for thoughtful escapes.",
     voice: "observant / precise / hopeful",
@@ -102,7 +102,7 @@ export const timelineYears = [
   { year: "2016", label: "First signal", selfId: "campus" },
   { year: "2019", label: "Campus peak", selfId: "campus" },
   { year: "2020", label: "Moved cities", selfId: "new-city" },
-  { year: "2022", label: "New rituals", selfId: "new-city" },
+  { year: "2026", label: "New rituals", selfId: "new-city" },
   { year: "Now", label: "Mediator", selfId: "now" },
 ];
 
@@ -127,15 +127,15 @@ export const eraGridPools: Record<number, EraGridCard[]> = {
     { id: "demo-2019-little-simz", name: "Little Simz", domain: "Music", type: "artist", year: 2019, description: "Precise bars with a world-building instinct.", tags: ["Rap", "Independent"], popularity: 0.87, provenance: "demo" },
     { id: "demo-2019-atlanta", name: "Atlanta", domain: "Film/TV", type: "tv_show", year: 2019, description: "Surreal comedy with a lived-in cultural texture.", tags: ["Comedy", "Cult"], popularity: 0.89, provenance: "demo" },
   ],
-  2022: [
-    { id: "demo-2022-little-simz", name: "Little Simz", domain: "Music", type: "artist", year: 2022, description: "A confident, expansive voice for a new chapter.", tags: ["Rap", "Artful"], popularity: 0.9, provenance: "demo" },
-    { id: "demo-2022-the-bear", name: "The Bear", domain: "Film/TV", type: "tv_show", year: 2022, description: "Pressure, care, and craft in a very small kitchen.", tags: ["Drama", "Food"], popularity: 0.94, provenance: "demo" },
-    { id: "demo-2022-tacos", name: "Tacos", domain: "Food", type: "place", year: 2022, description: "A low-friction favorite with endless local variation.", tags: ["Casual", "Social"], popularity: 0.89, provenance: "demo" },
-    { id: "demo-2022-apc", name: "A.P.C.", domain: "Fashion", type: "brand", year: 2022, description: "Quiet staples that get better with repetition.", tags: ["Minimal", "Durable"], popularity: 0.79, provenance: "demo" },
-    { id: "demo-2022-kyoto", name: "Kyoto", domain: "Places", type: "destination", year: 2022, description: "Texture, ritual, and an invitation to slow down.", tags: ["Culture", "Calm"], popularity: 0.88, provenance: "demo" },
-    { id: "demo-2022-stray", name: "Stray", domain: "Games", type: "video_game", year: 2022, description: "A curious world seen from a different height.", tags: ["Exploration", "Atmosphere"], popularity: 0.77, provenance: "demo" },
-    { id: "demo-2022-sza", name: "SZA", domain: "Music", type: "artist", year: 2022, description: "Messy honesty and an ear for emotional detail.", tags: ["R&B", "Confessional"], popularity: 0.93, provenance: "demo" },
-    { id: "demo-2022-everything", name: "Everything Everywhere All at Once", domain: "Film/TV", type: "movie", year: 2022, description: "Tender maximalism for an overfull moment.", tags: ["Sci-fi", "Heart"], popularity: 0.95, provenance: "demo" },
+  2026: [
+    { id: "demo-2026-little-simz", name: "Little Simz", domain: "Music", type: "artist", year: 2026, description: "A confident, expansive voice for a new chapter.", tags: ["Rap", "Artful"], popularity: 0.9, provenance: "demo" },
+    { id: "demo-2026-the-bear", name: "The Bear", domain: "Film/TV", type: "tv_show", year: 2026, description: "Pressure, care, and craft in a very small kitchen.", tags: ["Drama", "Food"], popularity: 0.94, provenance: "demo" },
+    { id: "demo-2026-tacos", name: "Tacos", domain: "Food", type: "place", year: 2026, description: "A low-friction favorite with endless local variation.", tags: ["Casual", "Social"], popularity: 0.89, provenance: "demo" },
+    { id: "demo-2026-apc", name: "A.P.C.", domain: "Fashion", type: "brand", year: 2026, description: "Quiet staples that get better with repetition.", tags: ["Minimal", "Durable"], popularity: 0.79, provenance: "demo" },
+    { id: "demo-2026-kyoto", name: "Kyoto", domain: "Places", type: "destination", year: 2026, description: "Texture, ritual, and an invitation to slow down.", tags: ["Culture", "Calm"], popularity: 0.88, provenance: "demo" },
+    { id: "demo-2026-stray", name: "Stray", domain: "Games", type: "video_game", year: 2026, description: "A curious world seen from a different height.", tags: ["Exploration", "Atmosphere"], popularity: 0.77, provenance: "demo" },
+    { id: "demo-2026-sza", name: "SZA", domain: "Music", type: "artist", year: 2026, description: "Messy honesty and an ear for emotional detail.", tags: ["R&B", "Confessional"], popularity: 0.93, provenance: "demo" },
+    { id: "demo-2026-everything", name: "Everything Everywhere All at Once", domain: "Film/TV", type: "movie", year: 2026, description: "Tender maximalism for an overfull moment.", tags: ["Sci-fi", "Heart"], popularity: 0.95, provenance: "demo" },
   ],
 };
 

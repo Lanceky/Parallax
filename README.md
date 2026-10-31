@@ -8,7 +8,7 @@
 2. Start the public-demo shell with `npm run dev`.
 3. Open `http://localhost:3000` - no account or API key is required for the seeded persona.
 4. Select `Campus-me`, `New-city-me`, or `Now-me` on the timeline.
-5. Open **Era Grid**, choose 2016, 2019, or 2022, and tap at least four cultural signals.
+5. Open **Era Grid**, choose 2016, 2019, or 2026, and tap at least four cultural signals.
 6. Use **Meet 2019-me** to see how confirmed signals become a weighted, provenance-aware profile.
 7. Check the API boundaries at `http://localhost:3000/api/health` and `http://localhost:3000/api/era-pool?year=2019&domain=Music`.
 8. Open `/connect` to create a scoped MCP token and run the `tools/list` smoke test.
@@ -17,7 +17,7 @@ The current shell intentionally favors the judge path: it is fast, keyboard-acce
 
 ## Live demo
 
-The current public deployment is [`parallaxx-black.vercel.app`](https://parallaxx-black.vercel.app). The requested `parallaxx.vercel.app` hostname is already assigned to an inaccessible Vercel project, so it cannot be reassigned from this account.
+The current public deployment is [`parallaxv1.vercel.app`](https://parallaxv1.vercel.app).
 
 ## Product direction
 

@@ -12,4 +12,10 @@ describe("demo persona", () => {
     const selfIds = new Set(demoSelves.map((self) => self.id));
     expect(timelineYears.every((marker) => selfIds.has(marker.selfId))).toBe(true);
   });
+
+  it("keeps the active seeded era current", () => {
+    expect(demoSelves.find((self) => self.id === "new-city")?.years).toBe("2020 - 2026");
+    expect(timelineYears.some((marker) => marker.year === "2026")).toBe(true);
+    expect(timelineYears.some((marker) => marker.year === "2022")).toBe(false);
+  });
 });
